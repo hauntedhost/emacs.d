@@ -1,0 +1,55 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/sean/code/ruby/"
+  (dired-filename . "/Users/sean/code/ruby/framework.rb"))
+ ("/Users/sean/code/ruby/framework.rb" . 367)
+ ("/Users/sean/code/ruby/dogs.txt" . 14)
+ ("/Users/sean/.emacs.d/"
+  (dired-filename . "/Users/sean/.emacs.d/init.el"))
+ ("/Users/sean/.emacs.d/init.el" . 2041)
+ ("/Users/sean/.emacs.d/elpa/archives/marmalade/archive-contents" . 88)
+ ("/Users/sean/.emacs.d/elpa/archives/marmalade/"
+  (dired-filename . "/Users/sean/.emacs.d/elpa/archives/marmalade/.."))
+ ("/Users/sean/.emacs.d/elpa/archives/"
+  (dired-filename . "/Users/sean/.emacs.d/elpa/archives/.."))
+ ("/Users/sean/.emacs.d/elpa/"
+  (dired-filename . "/Users/sean/.emacs.d/elpa/.."))
+ ("/Users/"
+  (dired-filename . "/Users/sean"))
+ ("/Users/sean/"
+  (dired-filename . "/Users/sean/code"))
+ ("/Users/sean/code/"
+  (dired-filename . "/Users/sean/code/clojurescript"))
+ ("/Users/sean/code/clojurescript/"
+  (dired-filename . "/Users/sean/code/clojurescript/react-todo"))
+ ("/Users/sean/code/clojurescript/react-todo/"
+  (dired-filename . "/Users/sean/code/clojurescript/react-todo/dev_src"))
+ ("/Users/sean/code/clojurescript/react-todo/dev_src/"
+  (dired-filename . "/Users/sean/code/clojurescript/react-todo/dev_src/react_todo"))
+ ("/Users/sean/code/clojurescript/react-todo/dev_src/react_todo/"
+  (dired-filename . "/Users/sean/code/clojurescript/react-todo/dev_src/react_todo/dev.cljs"))
+ ("/Users/sean/code/clojurescript/react-todo/dev_src/react_todo/dev.cljs" . 234)
+ ("/Users/sean/code/clojurescript/react-todo/src/"
+  (dired-filename . "/Users/sean/code/clojurescript/react-todo/src/react_todo"))
+ ("/Users/sean/code/clojurescript/react-todo/src/react_todo/"
+  (dired-filename . "/Users/sean/code/clojurescript/react-todo/src/react_todo/core.cljs"))
+ ("/Users/sean/code/clojurescript/react-todo/src/react_todo/core.cljs" . 172)
+ ("/Users/sean/code/realtyboost-v2/"
+  (dired-filename . "/Users/sean/code/realtyboost-v2/app"))
+ ("/Users/sean/code/realtyboost-v2/app/"
+  (dired-filename . "/Users/sean/code/realtyboost-v2/app/helpers"))
+ ("/Users/sean/code/realtyboost-v2/app/helpers/"
+  (dired-filename . "/Users/sean/code/realtyboost-v2/app/helpers/home_helper.rb"))
+ ("/Users/sean/code/realtyboost-v2/app/helpers/home_helper.rb" . 19)
+ ("/Users/sean/code/realtyboost-v2/config.ru" . 154)
+ ("/Users/sean/code/_study/functional-javascript/lib/iife.js" . 263)
+ ("/Users/sean/.ssh/config" . 743)
+ ("/Users/sean/code/_study/functional-javascript/lib/playground.html" . 552)
+ ("/Users/sean/.lein/profiles.clj" . 50)
+ ("/Users/sean/code/clojure/playing.clj" . 6)
+ ("/Users/sean/.emacs.d/elpa/cider-0.7.0/cider-autoloads.el" . 3473)
+ ("/Users/sean/.emacs.d/elpa/clojure-mode-3.0.0/clojure-mode-autoloads.el" . 492)
+ ("/Users/sean/.emacs.d/elpa/projectile-0.11.0/projectile-autoloads.el" . 2025)
+ ("/Users/sean/.emacs.d/elpa/s-1.9.0/s-autoloads.el" . 211)
+ ("/Users/sean/.emacs.d/elpa/pkg-info-0.5/pkg-info-autoloads.el" . 3738)
+ ("/Users/sean/.emacs.d/elpa/dash-2.9.0/dash-autoloads.el" . 217)
+ ("/Users/sean/.emacs.d/elpa/epl-0.7/epl-autoloads.el" . 215))
