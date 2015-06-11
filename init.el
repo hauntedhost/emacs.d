@@ -71,10 +71,6 @@
 (setq whitespace-display-mappings '(
   (space-mark   32     [183]          [46])
   (tab-mark     9      [8212 32]      [8212 32])
-; (space-mark   ?\     [?\u00B7]      [?.])
-; (space-mark   ?\xA0  [?\u00A4]      [?_])
-; (tab-mark     ?\t    [?\u00BB ?\t]  [?_])
-; (tab-mark     ?\t    [?\u00BB ?\t]  [?\\ ?\t])
 ))
 
 (setq whitespace-line-column 85)
@@ -97,3 +93,33 @@
 
 ; show matching parens
 (show-paren-mode t)
+
+; line number shenanigans
+(global-linum-mode t)
+; (setq linum-format "%d ")
+; (setq linum-format "%4d \u2502 ")
+
+(defface linenum-gutter '((t (:background "#343331"
+                              :foreground "#343331"
+                              :inherit mode-line)))
+  "linenum-gutter face."
+  :group 'modeline)
+
+(unless window-system
+  (add-hook 'linum-before-numbering-hook
+    (lambda ()
+      (setq-local linum-format-fmt
+        (let ((w (length (number-to-string
+                 (count-lines (point-min) (point-max))))))
+          (concat "%" (number-to-string w) "d"))))))
+
+(defun linum-format-func (line)
+  (concat
+   (propertize (format linum-format-fmt line) 'face 'linum)
+   (propertize " " 'face 'linenum-gutter)))
+
+(unless window-system
+  (setq linum-format 'linum-format-func))
+
+(set-face-attribute 'fringe nil :background "nil")
+(set-face-attribute 'linum nil :background "nil")
