@@ -14,12 +14,15 @@
 (defvar my-packages '(better-defaults
                       cider
                       clojure-mode
+                      elixir-mode
                       evil
                       projectile))
 
 (dolist (p my-packages)
   (unless (package-installed-p p)
-    (package-install p)))
+    (unless (assoc p package-archive-contents)
+      (package-refresh-contents))
+      (package-install p)))
 
 ;(defun require-package (package)
 ;  (setq-default highlight-tabs t)
